@@ -1,20 +1,13 @@
 from django.shortcuts import render
 
-from mainapp.models import Product
-
-
 def main (request):
-    title = 'Главная'
-    products = Product.objects.all()
-    content = {'title': title, 'products': products}
-    return render(request, 'mainapp/index.html', content)
-
+    return render(request, 'mainapp/index.html')
 
 def products (request):
     return render(request, 'mainapp/products.html')
 
-
 def contact (request):
     return render(request, 'mainapp/contact.html')
 
-
+def menu (request):
+    return render(request, 'mainapp/menu.html')
