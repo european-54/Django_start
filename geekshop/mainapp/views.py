@@ -1,7 +1,10 @@
 from unicodedata import category
+import random
 
 from django.shortcuts import render
 from django.shortcuts import get_object_or_404
+
+from geekshop.basketapp.models import Basket, list
 
 
 def main (request):
@@ -16,6 +19,24 @@ def contact (request):
 def menu (request):
     return render(request, 'mainapp/menu.html')
 
+def get_basket(user):
+    if user.is_authenticated:
+        return Basket.objects.filter(user=user)
+    else:
+        return []
+
+def get_hot_product():
+    products = Product.objects.all()
+
+    return random.sample(list(products), 1)[0]
+
+def get_same_products(hot_product):
+    same_products = Product.objects.filter(category=hot_product.category).\
+                                    exclude(pk=hot_product.pk)[:3]
+
+    return same_products
+
+
 
 class Product(object):
     pass
@@ -25,11 +46,15 @@ class ProductCategory(object):
     pass
 
 
-def products(request, pk=None):
-    print(pk)
+def print(pk):
+    pass
 
+
+def products(request, pk=None):
     title = 'продукты'
     links_menu = ProductCategory.objects.all()
+    basket = get_basket(request.user)
+    print(pk)
 
     if pk is not None:
         if pk == 0:
@@ -37,8 +62,7 @@ def products(request, pk=None):
             category = {'name': 'все'}
         else:
             category = get_object_or_404(ProductCategory, pk=pk)
-            products =
-Product.objects.filter(category__pk=pk).order_by('price')
+            products = Product.objects.filter(category__pk=pk).order_by('price')
 
         content = {
             'title': title,
@@ -59,7 +83,6 @@ Product.objects.filter(category__pk=pk).order_by('price')
 
     return render(request, 'mainapp/products.html', content)
 
-...
     basket = []
     if request.user.is_authenticated:
         basket = Basket.objects.filter(user=request.user)
@@ -71,8 +94,7 @@ Product.objects.filter(category__pk=pk).order_by('price')
             category = {'name': 'все'}
         else:
             category = get_object_or_404(ProductCategory, pk=pk)
-            products =
-Product.objects.filter(category__pk=pk).order_by('price')
+            products = Product.objects.filter(category__pk=pk).order_by('price')
 
         content = {
             'title': title,
@@ -83,4 +105,16 @@ Product.objects.filter(category__pk=pk).order_by('price')
         }
 
         return render(request, 'mainapp/products_list.html', content)
-...
+
+    hot_product = get_hot_product()
+    same_products = get_same_products(hot_product)
+
+    content = {
+        'title': title,
+        'links_menu': links_menu,
+        'hot_product': hot_product,
+        'same_products': same_products,
+        'basket': basket,
+    }
+
+    return render(request, 'mainapp/products.html', content)

@@ -10,3 +10,44 @@ on_delete=models.CASCADE, related_name='basket')
 default=0)
     add_datetime = models.DateTimeField(verbose_name='время',
 auto_now_add=True)
+
+
+def property(args):
+    pass
+
+
+@property
+def product_cost(self):
+    "return cost of all products this type"
+    return self.product.price * self.quantity
+
+
+def sum(param):
+    pass
+
+
+def list(param):
+    pass
+
+
+def map(param, _items):
+    pass
+
+
+def property(args):
+    pass
+
+
+@property
+def total_quantity(self):
+    "return total quantity for user"
+    _items = Basket.objects.filter(user=self.user)
+    _totalquantity = sum(list(map(lambda x: x.quantity, _items)))
+    return _totalquantity
+
+@property
+def total_cost(self, total=None):
+    "return total cost for user"
+    _items = Basket.objects.filter(user=self.user)
+    _totalcost = sum(list(map(lambda x: x.product_cost, _items)))
+    return _totalcost
