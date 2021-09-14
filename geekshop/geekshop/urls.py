@@ -23,8 +23,5 @@ urlpatterns = [
     path('contact/', mainapp.contact, name='contact'),
     path('test/', mainapp.menu, name='menu'),
     path('', mainapp.main, name='main'),
+    path('basket/', include('basketapp.urls', namespace='basket')),
 ]
-
-...
-path('basket/', include('basketapp.urls', namespace='basket')),
-...

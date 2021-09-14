@@ -62,6 +62,10 @@ def content(args):
     pass
 
 
+def content(args):
+    pass
+
+
 def products(request, pk):
     title = 'продукты'
     links_menu = ProductCategory.objects.all()
