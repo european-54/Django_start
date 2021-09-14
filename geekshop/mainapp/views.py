@@ -50,10 +50,24 @@ def print(pk):
     pass
 
 
-def products(request, pk=None):
+def content(args):
+    pass
+
+
+def content(args):
+    pass
+
+
+def content(args):
+    pass
+
+
+def products(request, pk):
     title = 'продукты'
     links_menu = ProductCategory.objects.all()
+    'product': get_object_or_404(Product, pk=pk)
     basket = get_basket(request.user)
+    return render(request, 'mainapp/product.html', content)
     print(pk)
 
     if pk is not None:
