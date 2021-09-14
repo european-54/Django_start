@@ -37,7 +37,6 @@ def get_same_products(hot_product):
     return same_products
 
 
-
 class Product(object):
     pass
 
@@ -47,18 +46,6 @@ class ProductCategory(object):
 
 
 def print(pk):
-    pass
-
-
-def content(args):
-    pass
-
-
-def content(args):
-    pass
-
-
-def content(args):
     pass
 
 
