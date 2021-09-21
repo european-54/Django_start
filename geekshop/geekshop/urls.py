@@ -17,10 +17,16 @@ from django.contrib import admin
 from django.urls import path
 import mainapp.views as mainapp
 
+
+def include(param, namespace):
+    pass
+
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('products/', mainapp.products, name='product'),
     path('contact/', mainapp.contact, name='contact'),
     path('test/', mainapp.menu, name='menu'),
     path('', mainapp.main, name='main'),
+    path('admin/', include('adminapp.urls', namespace='admin'))
 ]
