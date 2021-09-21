@@ -1,8 +1,10 @@
 from authapp.models import ShopUser
 from django.shortcuts import get_object_or_404, render
+from django.contrib.auth.decorators import user_passes_test
 from mainapp.models import Product, ProductCategory
 
 
+@user_passes_test(lambda u: u.is_superuser)
 
 def users(request):
     title = 'админка/пользователи'
