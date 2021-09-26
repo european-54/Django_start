@@ -12,7 +12,7 @@ from django.views.generic.edit import CreateView, UpdateView
 from django.views.generic.list import ListView
 from mainapp.models import Product, ProductCategory
 from django.views.generic.edit import DeleteView
-
+from django.views.generic.detail import DetailView
 
 
 class UsersListView(ListView):
@@ -55,6 +55,10 @@ class ProductCategoryDeleteView(DeleteView):
         self.object.save()
 
         return HttpResponseRedirect(self.get_success_url())
+
+class ProductDetailView(DetailView):
+    model = Product
+    template_name = 'adminapp/product_read.html'
 
 
 @user_passes_test(lambda u: u.is_superuser)
