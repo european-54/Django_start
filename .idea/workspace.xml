@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b374bf91-bb5e-42d0-8321-511814af4f48" name="Default Changelist" comment="#21.09.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №7">
-      <change beforePath="$PROJECT_DIR$/geekshop/adminapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekshop/adminapp/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/geekshop/geekshop/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekshop/geekshop/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/geekshop/geekshop/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekshop/geekshop/urls.py" afterDir="false" />
-    </list>
+    <list default="true" id="b374bf91-bb5e-42d0-8321-511814af4f48" name="Default Changelist" comment="#21.09.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №7" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -459,7 +455,28 @@
       <option name="project" value="LOCAL" />
       <updated>1632228564980</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="#21.09.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №7">
+      <created>1632646688267</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1632646688267</updated>
+    </task>
+    <task id="LOCAL-00047" summary="#21.09.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №7">
+      <created>1632647051956</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1632647051956</updated>
+    </task>
+    <task id="LOCAL-00048" summary="#21.09.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №7">
+      <created>1632647065153</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1632647065153</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
