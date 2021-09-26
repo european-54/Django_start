@@ -177,3 +177,15 @@ def product_delete(request, pk):
     content = {'title': title, 'product_to_delete': product}
 
     return render(request, 'adminapp/product_delete.html', content)
+
+
+def category_create():
+    return None
+
+
+def category_update():
+    return None
+
+
+def category_delete():
+    return None
