@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b374bf91-bb5e-42d0-8321-511814af4f48" name="Default Changelist" comment="#21.09.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №7">
+    <list default="true" id="b374bf91-bb5e-42d0-8321-511814af4f48" name="Default Changelist" comment="#26.09.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №8">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/geekshop/adminapp/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekshop/adminapp/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop/adminapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekshop/adminapp/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,13 +145,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1630807581878</updated>
-    </task>
-    <task id="LOCAL-00001" summary="#05.09.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №3">
-      <created>1630851963204</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1630851963209</updated>
     </task>
     <task id="LOCAL-00002" summary="#05.09.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №3">
       <created>1630920876190</created>
@@ -489,7 +482,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632647555219</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="#26.09.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №8">
+      <created>1632648918753</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1632648918753</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -510,6 +510,7 @@
     <MESSAGE value="#14.09.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №6" />
     <MESSAGE value="#15.09.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №6" />
     <MESSAGE value="#21.09.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №7" />
-    <option name="LAST_COMMIT_MESSAGE" value="#21.09.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №7" />
+    <MESSAGE value="#26.09.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №8" />
+    <option name="LAST_COMMIT_MESSAGE" value="#26.09.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №8" />
   </component>
 </project>
