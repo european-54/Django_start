@@ -3,6 +3,7 @@ from django.urls import path
 from .views import user_create,users,user_update,user_delete,category_create,categories,category_update,category_delete,product_create,products,product_read,product_update, product_delete,UsersListView
 
 app_name = 'adminapp'
+app_name = 'mainapp'
 
 urlpatterns = [
     path('users/create/', user_create, name='user_create'),
