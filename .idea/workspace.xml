@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b374bf91-bb5e-42d0-8321-511814af4f48" name="Default Changelist" comment="#26.09.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №8">
+    <list default="true" id="b374bf91-bb5e-42d0-8321-511814af4f48" name="Default Changelist" comment="#28.09.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №8">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/geekshop/adminapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekshop/adminapp/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/geekshop/basketapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekshop/basketapp/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/geekshop/geekshop/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekshop/geekshop/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop/mainapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekshop/mainapp/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +49,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="com.google.cloudcode.ide_session_index" value="20210928_0003" />
@@ -147,13 +147,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1630807581878</updated>
-    </task>
-    <task id="LOCAL-00014" summary="#14.09.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №6">
-      <created>1631616034342</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1631616034342</updated>
     </task>
     <task id="LOCAL-00015" summary="#14.09.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №6">
       <created>1631616724357</created>
@@ -491,7 +484,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632660783411</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="#28.09.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №8">
+      <created>1632830622014</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1632830622015</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -499,7 +499,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="Django_start/homework1_Lazarev_Igor" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -513,6 +525,7 @@
     <MESSAGE value="#15.09.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №6" />
     <MESSAGE value="#21.09.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №7" />
     <MESSAGE value="#26.09.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №8" />
-    <option name="LAST_COMMIT_MESSAGE" value="#26.09.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №8" />
+    <MESSAGE value="#28.09.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №8" />
+    <option name="LAST_COMMIT_MESSAGE" value="#28.09.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №8" />
   </component>
 </project>
