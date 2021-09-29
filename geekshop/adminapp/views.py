@@ -230,3 +230,7 @@ def category_update():
 
 def category_delete():
     return None
+
+
+def homepageview():
+    return None
