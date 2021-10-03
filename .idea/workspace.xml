@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b374bf91-bb5e-42d0-8321-511814af4f48" name="Default Changelist" comment="#29.09.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №1">
+    <list default="true" id="b374bf91-bb5e-42d0-8321-511814af4f48" name="Default Changelist" comment="#3.10.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekshop/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +24,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="DZ8_Lazarev_Igor" />
+        <entry key="$PROJECT_DIR$" value="homework1_Lazarev_Igor" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -50,7 +51,7 @@
     <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="com.google.cloudcode.ide_session_index" value="20211003_0000" />
+    <property name="com.google.cloudcode.ide_session_index" value="20211003_0001" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.general" />
@@ -145,13 +146,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1630807581878</updated>
-    </task>
-    <task id="LOCAL-00026" summary="#15.09.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №6">
-      <created>1631644656328</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1631644656328</updated>
     </task>
     <task id="LOCAL-00027" summary="#15.09.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №6">
       <created>1631645860960</created>
@@ -489,7 +483,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632947138398</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="#3.10.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №2">
+      <created>1633278527665</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1633278527666</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -526,7 +527,8 @@
     <MESSAGE value="#28.09.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №8" />
     <MESSAGE value="#28.09.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №1" />
     <MESSAGE value="#29.09.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №1" />
-    <option name="LAST_COMMIT_MESSAGE" value="#29.09.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №1" />
+    <MESSAGE value="#3.10.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №2" />
+    <option name="LAST_COMMIT_MESSAGE" value="#3.10.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
