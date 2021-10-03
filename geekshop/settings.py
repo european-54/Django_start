@@ -150,6 +150,7 @@ AUTHENTICATION_BACKENDS = (
     'social_core.backends.vk.VKOAuth2',
 )
 
+SOCIAL_AUTH_URL_NAMESPACE = 'social'
 
 # Загружаем секреты из файла
 with open('geekshop/vk.json', 'r') as f:
