@@ -1,6 +1,6 @@
 from django.shortcuts import render, get_object_or_404
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
-from geekshop.mainapp.models import ProductCategory, Product
+from mainapp.models import ProductCategory, Product
 
 
 def main (request):
