@@ -1,3 +1,5 @@
+#from django.contrib.auth.models import AbstractUser
+#from django.contrib.auth.models import AbstractUser
 from django.contrib.auth.models import AbstractUser
 from django.db import models
 from django.utils.timezone import now
@@ -16,3 +18,15 @@ class ShopUser(AbstractUser):
             return False
         else:
             return True
+
+
+class ShopUserProfile(models.Model):
+    MALE = 'М'
+    FEMALE = 'Ж'
+
+    GENDER_CHOICES = {
+        (MALE, 'М'),
+        (FEMALE, 'Ж'),
+    }
+
+    user = models.OneToOneField(ShopUser, unique=True, null=False, db_index=True, on_delete=models.CASCADE)
