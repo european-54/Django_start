@@ -30,3 +30,6 @@ class ShopUserProfile(models.Model):
     }
 
     user = models.OneToOneField(ShopUser, unique=True, null=False, db_index=True, on_delete=models.CASCADE)
+    tagline = models.CharField(verbose_name='теги', max_length=128, blank=True)
+    about_me = models.TextField(verbose_name='о себе', max_length=512, blank=True)
+    about_me = models.CharField(verbose_name='пол', max_length=1, blank=True, choices=GENDER_CHOICES)
