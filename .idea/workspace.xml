@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b374bf91-bb5e-42d0-8321-511814af4f48" name="Default Changelist" comment="#4.10.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №2">
+    <list default="true" id="b374bf91-bb5e-42d0-8321-511814af4f48" name="Default Changelist" comment="#5.10.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №2">
+      <change afterPath="$PROJECT_DIR$/geekshop/authapp/templates/authapp/edit.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/geekshop/authapp/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekshop/authapp/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop/authapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekshop/authapp/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -146,13 +148,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1630807581878</updated>
-    </task>
-    <task id="LOCAL-00035" summary="#21.09.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №7">
-      <created>1632220213228</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1632220213228</updated>
     </task>
     <task id="LOCAL-00036" summary="#21.09.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №7">
       <created>1632220583184</created>
@@ -490,7 +485,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633369177231</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="#5.10.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №2">
+      <created>1633374535688</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1633374535688</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -529,7 +531,8 @@
     <MESSAGE value="#29.09.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №1" />
     <MESSAGE value="#3.10.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №2" />
     <MESSAGE value="#4.10.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №2" />
-    <option name="LAST_COMMIT_MESSAGE" value="#4.10.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №2" />
+    <MESSAGE value="#5.10.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №2" />
+    <option name="LAST_COMMIT_MESSAGE" value="#5.10.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
