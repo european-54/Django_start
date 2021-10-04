@@ -220,7 +220,7 @@ def product_delete(request, pk):
     return render(request, 'adminapp/product_delete.html', content)
 
 
-def category_create():
+def category_create(request):
     return None
 
 
