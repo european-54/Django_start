@@ -11,6 +11,8 @@ class BasketQuerySet(models.QuerySet):
            object.product.save()
        super(BasketQuerySet, self).delete(*args, **kwargs)
 
+objects = BasketQuerySet.as_manager()
+
 
 class Basket(models.Model):
     user = models.ForeignKey(settings.AUTH_USER_MODEL,
