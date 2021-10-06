@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b374bf91-bb5e-42d0-8321-511814af4f48" name="Default Changelist" comment="#5.10.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №2">
+      <change afterPath="$PROJECT_DIR$/geekshop/ordersapp/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geekshop/ordersapp/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geekshop/ordersapp/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geekshop/ordersapp/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geekshop/ordersapp/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geekshop/ordersapp/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geekshop/ordersapp/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/geekshop/adminapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekshop/adminapp/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,13 +152,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1630807581878</updated>
-    </task>
-    <task id="LOCAL-00040" summary="#21.09.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №7">
-      <created>1632226711436</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1632226711436</updated>
     </task>
     <task id="LOCAL-00041" summary="#21.09.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №7">
       <created>1632226872418</created>
@@ -490,7 +489,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633377132383</updated>
     </task>
-    <option name="localTasksCounter" value="89" />
+    <task id="LOCAL-00089" summary="#5.10.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №2">
+      <created>1633523032889</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1633523032890</updated>
+    </task>
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
