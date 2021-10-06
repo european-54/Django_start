@@ -18,6 +18,7 @@ class OrderItemsCreate(CreateView):
    success_url = reverse_lazy('ordersapp:orders_list')
 
    def get_context_data(self, **kwargs):
+       global num
        data = super(OrderItemsCreate, self).get_context_data(**kwargs)
        OrderFormSet = inlineformset_factory(Order, OrderItem, \
                                             form=OrderItemForm, extra=1)
@@ -33,7 +34,7 @@ class OrderItemsCreate(CreateView):
                for num, form in enumerate(formset.forms):
                    form.initial['product'] = basket_items[num].product
                    form.initial['quantity'] = basket_items[num].quantity
-               basket_items.delete()
+               basket_items[num].delete()
            else:
                formset = OrderFormSet()
 
