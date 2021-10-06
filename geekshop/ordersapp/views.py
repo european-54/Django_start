@@ -58,6 +58,11 @@ class OrderItemsCreate(CreateView):
        return super(OrderItemsCreate, self).form_valid(form)
 
 
+class OrderDelete(DeleteView):
+   model = Order
+   success_url = reverse_lazy('ordersapp:orders_list')
+
+
 class OrderList(ListView):
    model = Order
 
