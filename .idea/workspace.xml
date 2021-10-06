@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b374bf91-bb5e-42d0-8321-511814af4f48" name="Default Changelist" comment="#6.10.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop/ordersapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekshop/ordersapp/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,13 +146,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1630807581878</updated>
-    </task>
-    <task id="LOCAL-00065" summary="#28.09.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №1">
-      <created>1632834086836</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1632834086836</updated>
     </task>
     <task id="LOCAL-00066" summary="#28.09.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №1">
       <created>1632857699359</created>
@@ -489,7 +483,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633534080093</updated>
     </task>
-    <option name="localTasksCounter" value="114" />
+    <task id="LOCAL-00114" summary="#6.10.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №3">
+      <created>1633534532585</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1633534532585</updated>
+    </task>
+    <option name="localTasksCounter" value="115" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
