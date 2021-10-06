@@ -65,3 +65,10 @@ function orderSummaryUpdate(orderitem_price, delta_quantity) {
    $('.order_total_cost').html(order_total_cost.toString());
    $('.order_total_quantity').html(order_total_quantity.toString());
 }
+
+$('.formset_row').formset({
+   addText: 'добавить продукт',
+   deleteText: 'удалить',
+   prefix: 'orderitems',
+   removed: deleteOrderItem
+});
