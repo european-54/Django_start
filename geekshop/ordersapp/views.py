@@ -10,6 +10,8 @@ from django.views.generic.detail import DetailView
 from basketapp.models import Basket
 from ordersapp.models import Order, OrderItem
 from ordersapp.forms import OrderItemForm
+from django.dispatch import receiver
+from django.db.models.signals import pre_save, pre_delete
 
 
 class OrderItemsCreate(CreateView):
@@ -86,3 +88,6 @@ class OrderList(ListView):
 
    def get_queryset(self):
        return Order.objects.filter(user=self.request.user)
+
+@receiver(pre_save, sender=OrderItem)
+@receiver(pre_save, sender=Basket)
