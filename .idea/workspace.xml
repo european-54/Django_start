@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b374bf91-bb5e-42d0-8321-511814af4f48" name="Default Changelist" comment="#5.10.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №2">
-      <change afterPath="$PROJECT_DIR$/geekshop/ordersapp/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geekshop/ordersapp/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geekshop/ordersapp/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geekshop/ordersapp/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geekshop/ordersapp/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geekshop/ordersapp/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geekshop/ordersapp/views.py" afterDir="false" />
+    <list default="true" id="b374bf91-bb5e-42d0-8321-511814af4f48" name="Default Changelist" comment="#7.10.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop/ordersapp/templates/ordersapp/order_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/geekshop/ordersapp/templates/ordersapp/order_form.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,15 +16,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="homework2_Lazarev_Igor" />
+        <entry key="$PROJECT_DIR$" value="homework3_Lazarev_Igor" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -57,7 +51,7 @@
     <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="com.google.cloudcode.ide_session_index" value="20211006_0001" />
+    <property name="com.google.cloudcode.ide_session_index" value="20211006_0004" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.general" />
@@ -153,272 +147,6 @@
       <option name="presentableId" value="Default" />
       <updated>1630807581878</updated>
     </task>
-    <task id="LOCAL-00041" summary="#21.09.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №7">
-      <created>1632226872418</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1632226872418</updated>
-    </task>
-    <task id="LOCAL-00042" summary="#21.09.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №7">
-      <created>1632227005458</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1632227005458</updated>
-    </task>
-    <task id="LOCAL-00043" summary="#21.09.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №7">
-      <created>1632227868334</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1632227868334</updated>
-    </task>
-    <task id="LOCAL-00044" summary="#21.09.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №7">
-      <created>1632228182629</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1632228182629</updated>
-    </task>
-    <task id="LOCAL-00045" summary="#21.09.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №7">
-      <created>1632228564980</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1632228564980</updated>
-    </task>
-    <task id="LOCAL-00046" summary="#21.09.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №7">
-      <created>1632646688267</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1632646688267</updated>
-    </task>
-    <task id="LOCAL-00047" summary="#21.09.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №7">
-      <created>1632647051956</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1632647051956</updated>
-    </task>
-    <task id="LOCAL-00048" summary="#21.09.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №7">
-      <created>1632647065153</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1632647065153</updated>
-    </task>
-    <task id="LOCAL-00049" summary="#21.09.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №7">
-      <created>1632647555219</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1632647555219</updated>
-    </task>
-    <task id="LOCAL-00050" summary="#26.09.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №8">
-      <created>1632648918753</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1632648918753</updated>
-    </task>
-    <task id="LOCAL-00051" summary="#26.09.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №8">
-      <created>1632649825082</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1632649825082</updated>
-    </task>
-    <task id="LOCAL-00052" summary="#26.09.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №8">
-      <created>1632650174448</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1632650174449</updated>
-    </task>
-    <task id="LOCAL-00053" summary="#26.09.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №8">
-      <created>1632650839345</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1632650839345</updated>
-    </task>
-    <task id="LOCAL-00054" summary="#26.09.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №8">
-      <created>1632651308922</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1632651308922</updated>
-    </task>
-    <task id="LOCAL-00055" summary="#26.09.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №8">
-      <created>1632652923926</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1632652923927</updated>
-    </task>
-    <task id="LOCAL-00056" summary="#26.09.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №8">
-      <created>1632654211797</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1632654211797</updated>
-    </task>
-    <task id="LOCAL-00057" summary="#26.09.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №8">
-      <created>1632655387782</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1632655387782</updated>
-    </task>
-    <task id="LOCAL-00058" summary="#26.09.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №8">
-      <created>1632655777825</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1632655777825</updated>
-    </task>
-    <task id="LOCAL-00059" summary="#26.09.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №8">
-      <created>1632656095202</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1632656095202</updated>
-    </task>
-    <task id="LOCAL-00060" summary="#26.09.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №8">
-      <created>1632656285305</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1632656285305</updated>
-    </task>
-    <task id="LOCAL-00061" summary="#26.09.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №8">
-      <created>1632656498677</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1632656498677</updated>
-    </task>
-    <task id="LOCAL-00062" summary="#26.09.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №8">
-      <created>1632660783411</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1632660783411</updated>
-    </task>
-    <task id="LOCAL-00063" summary="#28.09.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №8">
-      <created>1632830622014</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1632830622015</updated>
-    </task>
-    <task id="LOCAL-00064" summary="#28.09.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №1">
-      <created>1632832125823</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1632832125823</updated>
-    </task>
-    <task id="LOCAL-00065" summary="#28.09.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №1">
-      <created>1632834086836</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1632834086836</updated>
-    </task>
-    <task id="LOCAL-00066" summary="#28.09.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №1">
-      <created>1632857699359</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1632857699361</updated>
-    </task>
-    <task id="LOCAL-00067" summary="#29.09.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №1">
-      <created>1632858178680</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1632858178680</updated>
-    </task>
-    <task id="LOCAL-00068" summary="#29.09.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №1">
-      <created>1632858450120</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1632858450120</updated>
-    </task>
-    <task id="LOCAL-00069" summary="#29.09.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №1">
-      <created>1632858625520</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1632858625520</updated>
-    </task>
-    <task id="LOCAL-00070" summary="#29.09.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №1">
-      <created>1632859299250</created>
-      <option name="number" value="00070" />
-      <option name="presentableId" value="LOCAL-00070" />
-      <option name="project" value="LOCAL" />
-      <updated>1632859299250</updated>
-    </task>
-    <task id="LOCAL-00071" summary="#29.09.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №1">
-      <created>1632859488690</created>
-      <option name="number" value="00071" />
-      <option name="presentableId" value="LOCAL-00071" />
-      <option name="project" value="LOCAL" />
-      <updated>1632859488690</updated>
-    </task>
-    <task id="LOCAL-00072" summary="#29.09.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №1">
-      <created>1632859647141</created>
-      <option name="number" value="00072" />
-      <option name="presentableId" value="LOCAL-00072" />
-      <option name="project" value="LOCAL" />
-      <updated>1632859647141</updated>
-    </task>
-    <task id="LOCAL-00073" summary="#29.09.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №1">
-      <created>1632859900348</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
-      <option name="project" value="LOCAL" />
-      <updated>1632859900348</updated>
-    </task>
-    <task id="LOCAL-00074" summary="#29.09.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №1">
-      <created>1632947138397</created>
-      <option name="number" value="00074" />
-      <option name="presentableId" value="LOCAL-00074" />
-      <option name="project" value="LOCAL" />
-      <updated>1632947138398</updated>
-    </task>
-    <task id="LOCAL-00075" summary="#3.10.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №2">
-      <created>1633278527665</created>
-      <option name="number" value="00075" />
-      <option name="presentableId" value="LOCAL-00075" />
-      <option name="project" value="LOCAL" />
-      <updated>1633278527666</updated>
-    </task>
-    <task id="LOCAL-00076" summary="#3.10.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №2">
-      <created>1633282810716</created>
-      <option name="number" value="00076" />
-      <option name="presentableId" value="LOCAL-00076" />
-      <option name="project" value="LOCAL" />
-      <updated>1633282810717</updated>
-    </task>
-    <task id="LOCAL-00077" summary="#3.10.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №2">
-      <created>1633284164551</created>
-      <option name="number" value="00077" />
-      <option name="presentableId" value="LOCAL-00077" />
-      <option name="project" value="LOCAL" />
-      <updated>1633284164551</updated>
-    </task>
-    <task id="LOCAL-00078" summary="#3.10.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №2">
-      <created>1633287583555</created>
-      <option name="number" value="00078" />
-      <option name="presentableId" value="LOCAL-00078" />
-      <option name="project" value="LOCAL" />
-      <updated>1633287583555</updated>
-    </task>
     <task id="LOCAL-00079" summary="#3.10.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №2">
       <created>1633288693493</created>
       <option name="number" value="00079" />
@@ -496,7 +224,273 @@
       <option name="project" value="LOCAL" />
       <updated>1633523032890</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="#5.10.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №2">
+      <created>1633523578798</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1633523578801</updated>
+    </task>
+    <task id="LOCAL-00091" summary="#6.10.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №3">
+      <created>1633526401245</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1633526401245</updated>
+    </task>
+    <task id="LOCAL-00092" summary="#6.10.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №3">
+      <created>1633526769975</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1633526769975</updated>
+    </task>
+    <task id="LOCAL-00093" summary="#6.10.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №3">
+      <created>1633527002236</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1633527002236</updated>
+    </task>
+    <task id="LOCAL-00094" summary="#6.10.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №3">
+      <created>1633527132607</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1633527132607</updated>
+    </task>
+    <task id="LOCAL-00095" summary="#6.10.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №3">
+      <created>1633527352281</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1633527352281</updated>
+    </task>
+    <task id="LOCAL-00096" summary="#6.10.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №3">
+      <created>1633527658071</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1633527658071</updated>
+    </task>
+    <task id="LOCAL-00097" summary="#6.10.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №3">
+      <created>1633527847842</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1633527847842</updated>
+    </task>
+    <task id="LOCAL-00098" summary="#6.10.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №3">
+      <created>1633527949148</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1633527949148</updated>
+    </task>
+    <task id="LOCAL-00099" summary="#6.10.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №3">
+      <created>1633528097081</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1633528097081</updated>
+    </task>
+    <task id="LOCAL-00100" summary="#6.10.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №3">
+      <created>1633528385689</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1633528385689</updated>
+    </task>
+    <task id="LOCAL-00101" summary="#6.10.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №3">
+      <created>1633528889558</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1633528889558</updated>
+    </task>
+    <task id="LOCAL-00102" summary="#6.10.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №3">
+      <created>1633529160221</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1633529160221</updated>
+    </task>
+    <task id="LOCAL-00103" summary="#6.10.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №3">
+      <created>1633529384362</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1633529384362</updated>
+    </task>
+    <task id="LOCAL-00104" summary="#6.10.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №3">
+      <created>1633529577515</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1633529577515</updated>
+    </task>
+    <task id="LOCAL-00105" summary="#6.10.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №3">
+      <created>1633529794736</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1633529794736</updated>
+    </task>
+    <task id="LOCAL-00106" summary="#6.10.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №3">
+      <created>1633529960868</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1633529960868</updated>
+    </task>
+    <task id="LOCAL-00107" summary="#6.10.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №3">
+      <created>1633530114057</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1633530114057</updated>
+    </task>
+    <task id="LOCAL-00108" summary="#6.10.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №3">
+      <created>1633530272865</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1633530272865</updated>
+    </task>
+    <task id="LOCAL-00109" summary="#6.10.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №3">
+      <created>1633530544223</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1633530544223</updated>
+    </task>
+    <task id="LOCAL-00110" summary="#6.10.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №3">
+      <created>1633530659552</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1633530659552</updated>
+    </task>
+    <task id="LOCAL-00111" summary="#6.10.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №3">
+      <created>1633532958222</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1633532958222</updated>
+    </task>
+    <task id="LOCAL-00112" summary="#6.10.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №3">
+      <created>1633533638739</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1633533638739</updated>
+    </task>
+    <task id="LOCAL-00113" summary="#6.10.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №3">
+      <created>1633534080093</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1633534080093</updated>
+    </task>
+    <task id="LOCAL-00114" summary="#6.10.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №3">
+      <created>1633534532585</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1633534532585</updated>
+    </task>
+    <task id="LOCAL-00115" summary="#6.10.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №3">
+      <created>1633535042657</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1633535042657</updated>
+    </task>
+    <task id="LOCAL-00116" summary="#6.10.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №3">
+      <created>1633535628059</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1633535628059</updated>
+    </task>
+    <task id="LOCAL-00117" summary="#6.10.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №3">
+      <created>1633535886336</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1633535886336</updated>
+    </task>
+    <task id="LOCAL-00118" summary="#6.10.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №3">
+      <created>1633536044409</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1633536044409</updated>
+    </task>
+    <task id="LOCAL-00119" summary="#6.10.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №4">
+      <created>1633538902168</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1633538902168</updated>
+    </task>
+    <task id="LOCAL-00120" summary="#6.10.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №4">
+      <created>1633539457812</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1633539457812</updated>
+    </task>
+    <task id="LOCAL-00121" summary="#6.10.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №4">
+      <created>1633540019830</created>
+      <option name="number" value="00121" />
+      <option name="presentableId" value="LOCAL-00121" />
+      <option name="project" value="LOCAL" />
+      <updated>1633540019830</updated>
+    </task>
+    <task id="LOCAL-00122" summary="#6.10.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №4">
+      <created>1633540624486</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1633540624486</updated>
+    </task>
+    <task id="LOCAL-00123" summary="#6.10.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №4">
+      <created>1633541057831</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1633541057831</updated>
+    </task>
+    <task id="LOCAL-00124" summary="#7.10.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №4">
+      <created>1633541238342</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1633541238342</updated>
+    </task>
+    <task id="LOCAL-00125" summary="#7.10.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №4">
+      <created>1633541396212</created>
+      <option name="number" value="00125" />
+      <option name="presentableId" value="LOCAL-00125" />
+      <option name="project" value="LOCAL" />
+      <updated>1633541396212</updated>
+    </task>
+    <task id="LOCAL-00126" summary="#7.10.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №4">
+      <created>1633541567530</created>
+      <option name="number" value="00126" />
+      <option name="presentableId" value="LOCAL-00126" />
+      <option name="project" value="LOCAL" />
+      <updated>1633541567530</updated>
+    </task>
+    <task id="LOCAL-00127" summary="#7.10.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №4">
+      <created>1633541710060</created>
+      <option name="number" value="00127" />
+      <option name="presentableId" value="LOCAL-00127" />
+      <option name="project" value="LOCAL" />
+      <updated>1633541710060</updated>
+    </task>
+    <option name="localTasksCounter" value="128" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -536,7 +530,10 @@
     <MESSAGE value="#3.10.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №2" />
     <MESSAGE value="#4.10.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №2" />
     <MESSAGE value="#5.10.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №2" />
-    <option name="LAST_COMMIT_MESSAGE" value="#5.10.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №2" />
+    <MESSAGE value="#6.10.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №3" />
+    <MESSAGE value="#6.10.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №4" />
+    <MESSAGE value="#7.10.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №4" />
+    <option name="LAST_COMMIT_MESSAGE" value="#7.10.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №4" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
