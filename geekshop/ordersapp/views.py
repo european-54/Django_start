@@ -36,6 +36,7 @@ class OrderItemsCreate(CreateView):
                 for num, form in enumerate(formset.forms):
                     form.initial['product'] = basket_items[num].product
                     form.initial['quantity'] = basket_items[num].quantity
+                    form.initial['price'] = basket_items[num].product.price
                 basket_items[num].delete()
             else:
                 formset = OrderFormSet()
@@ -67,6 +68,26 @@ class OrderItemsCreate(CreateView):
         order.save()
 
         return HttpResponseRedirect(reverse('ordersapp:orders_list'))
+
+
+class OrderFormSet(object):
+    pass
+
+
+class OrderItemsUpdate(UpdateView):
+
+    def get_context_data(self, data=None, **kwargs):
+
+        if self.request.POST:
+            data['orderitems'] = OrderFormSet(self.request.POST,
+                                              instance=self.object)
+        else:
+            formset = OrderFormSet(instance=self.object)
+            for form in formset.forms:
+                if form.instance.pk:
+                    form.initial['price'] = form.instance.product.price
+            data['orderitems'] = formset
+        return data
 
 
 class OrderRead(DetailView):
