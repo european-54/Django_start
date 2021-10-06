@@ -56,13 +56,13 @@ class ProductCategoryDeleteView(DeleteView):
 
         return HttpResponseRedirect(self.get_success_url())
 
+
 class ProductDetailView(DetailView):
     model = Product
     template_name = 'adminapp/product_read.html'
 
 
 @user_passes_test(lambda u: u.is_superuser)
-
 def users(request):
     title = 'админка/пользователи'
 
@@ -97,8 +97,8 @@ def user_update(request, pk):
 
     edit_user = get_object_or_404(ShopUser, pk=pk)
     if request.method == 'POST':
-        edit_form = ShopUserAdminEditForm(request.POST, request.FILES,\
-                                                        instance=edit_user)
+        edit_form = ShopUserAdminEditForm(request.POST, request.FILES, \
+                                          instance=edit_user)
         if edit_form.is_valid():
             edit_form.save()
             return HttpResponseRedirect(reverse('admin:user_update', \
@@ -140,6 +140,7 @@ def categories(request):
 
     return render(request, 'adminapp/categories.html', content)
 
+
 def products(request, pk):
     title = 'админка/продукт'
 
@@ -153,6 +154,7 @@ def products(request, pk):
     }
 
     return render(request, 'adminapp/products.html', content)
+
 
 def product_create(request, pk):
     title = 'продукт/создание'
@@ -188,7 +190,7 @@ def product_update(request, pk):
 
     if request.method == 'POST':
         edit_form = ProductEditForm(request.POST, request.FILES, \
-                                                  instance=edit_product)
+                                    instance=edit_product)
         if edit_form.is_valid():
             edit_form.save()
             return HttpResponseRedirect(reverse('admin:product_update', \
@@ -199,7 +201,7 @@ def product_update(request, pk):
     content = {'title': title,
                'update_form': edit_form,
                'category': edit_product.category
-    }
+               }
 
     return render(request, 'adminapp/product_update.html', content)
 
@@ -213,7 +215,7 @@ def product_delete(request, pk):
         product.is_active = False
         product.save()
         return HttpResponseRedirect(reverse('admin:products', \
-                                             args=[product.category.pk]))
+                                            args=[product.category.pk]))
 
     content = {'title': title, 'product_to_delete': product}
 

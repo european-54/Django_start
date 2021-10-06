@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b374bf91-bb5e-42d0-8321-511814af4f48" name="Default Changelist" comment="#5.10.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop/adminapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekshop/adminapp/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +24,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="homework1_Lazarev_Igor" />
+        <entry key="$PROJECT_DIR$" value="homework2_Lazarev_Igor" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -50,7 +51,7 @@
     <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="com.google.cloudcode.ide_session_index" value="20211005_0001" />
+    <property name="com.google.cloudcode.ide_session_index" value="20211006_0001" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.general" />
