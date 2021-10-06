@@ -33,6 +33,7 @@ def mainapp(args):
 urlpatterns = [
     re_path(r'^$', mainapp.main, name='main'),
     re_path(r'^products/', include('mainapp.urls', namespace='products')),
+    re_path(r'^order/', include('ordersapp.urls', namespace='order')),
     #path('admin/', admin.site.urls),
     path('products/', mainapp.products, name='product'),
     path('contact/', mainapp.contact, name='contact'),
