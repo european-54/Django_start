@@ -53,6 +53,15 @@
            <button type="submit" value="сохранить" class="btn btn-default btn-round form-control last">сохранить</button>
            {% include 'ordersapp/includes/inc_order_actions.html' %}
        </form>
+       <script>
+           $('.formset_row').formset({
+           addText: 'добавить продукт',
+           deleteText: 'удалить',
+           prefix: 'orderitems',
+           removed: deleteOrderItem
+           });
+       </script>
+
    </div>
 
 {% endblock %}
