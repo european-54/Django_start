@@ -66,6 +66,13 @@ class OrderRead(DetailView):
        context['title'] = 'заказ/просмотр'
        return context
 
+   def order_forming_complete(request, pk):
+       order = get_object_or_404(Order, pk=pk)
+       order.status = Order.SENT_TO_PROCEED
+       order.save()
+
+       return HttpResponseRedirect(reverse('ordersapp:orders_list'))
+
 
 class OrderDelete(DeleteView):
    model = Order
