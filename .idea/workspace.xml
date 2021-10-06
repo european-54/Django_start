@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b374bf91-bb5e-42d0-8321-511814af4f48" name="Default Changelist" comment="#6.10.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №4" />
+    <list default="true" id="b374bf91-bb5e-42d0-8321-511814af4f48" name="Default Changelist" comment="#7.10.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №4" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -143,20 +143,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1630807581878</updated>
-    </task>
-    <task id="LOCAL-00075" summary="#3.10.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №2">
-      <created>1633278527665</created>
-      <option name="number" value="00075" />
-      <option name="presentableId" value="LOCAL-00075" />
-      <option name="project" value="LOCAL" />
-      <updated>1633278527666</updated>
-    </task>
-    <task id="LOCAL-00076" summary="#3.10.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №2">
-      <created>1633282810716</created>
-      <option name="number" value="00076" />
-      <option name="presentableId" value="LOCAL-00076" />
-      <option name="project" value="LOCAL" />
-      <updated>1633282810717</updated>
     </task>
     <task id="LOCAL-00077" summary="#3.10.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №2">
       <created>1633284164551</created>
@@ -487,7 +473,21 @@
       <option name="project" value="LOCAL" />
       <updated>1633541057831</updated>
     </task>
-    <option name="localTasksCounter" value="124" />
+    <task id="LOCAL-00124" summary="#7.10.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №4">
+      <created>1633541238342</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1633541238342</updated>
+    </task>
+    <task id="LOCAL-00125" summary="#7.10.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №4">
+      <created>1633541396212</created>
+      <option name="number" value="00125" />
+      <option name="presentableId" value="LOCAL-00125" />
+      <option name="project" value="LOCAL" />
+      <updated>1633541396212</updated>
+    </task>
+    <option name="localTasksCounter" value="126" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -529,7 +529,8 @@
     <MESSAGE value="#5.10.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №2" />
     <MESSAGE value="#6.10.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №3" />
     <MESSAGE value="#6.10.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №4" />
-    <option name="LAST_COMMIT_MESSAGE" value="#6.10.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №4" />
+    <MESSAGE value="#7.10.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №4" />
+    <option name="LAST_COMMIT_MESSAGE" value="#7.10.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №4" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
