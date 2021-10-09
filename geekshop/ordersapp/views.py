@@ -17,15 +17,15 @@ from geekshop.mainapp.models import Product
 
 
 class OrderItemsCreate(CreateView):
-   model = Order
-   fields = []
-   success_url = reverse_lazy('ordersapp:orders_list')
+    model = Order
+    fields = []
+    success_url = reverse_lazy('ordersapp:orders_list')
 
-    def __init__(self, **kwargs):
+    def __init__(self, form=None, **kwargs):
         super().__init__(kwargs)
         self.object = form.save()
 
-   def get_context_data(self, **kwargs):
+    def get_context_data(self, **kwargs):
         global num
         data = super(OrderItemsCreate, self).get_context_data(**kwargs)
         OrderFormSet = inlineformset_factory(Order, OrderItem, \
