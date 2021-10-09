@@ -25,3 +25,7 @@ class Product(models.Model):
 
     def __str__(self):
         return f"{self.name}{self.category.name}"
+
+    @classmethod
+    def get_items(cls):
+        pass
