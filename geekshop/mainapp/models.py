@@ -26,6 +26,11 @@ class Product(models.Model):
     def __str__(self):
         return f"{self.name}{self.category.name}"
 
-    @classmethod
-    def get_items(cls):
-        pass
+    #  @classmethod
+    #  def get_items(cls):
+     #   pass
+
+    @staticmethod
+    def get_items():
+        return Product.objects.filter(is_active=True). \
+            order_by('category', 'name')
