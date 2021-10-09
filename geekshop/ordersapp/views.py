@@ -7,11 +7,13 @@ from django.forms import inlineformset_factory
 from django.views.generic import ListView, CreateView, UpdateView, DeleteView
 from django.views.generic.detail import DetailView
 
-from basketapp.models import Basket
-from ordersapp.models import Order, OrderItem
-from ordersapp.forms import OrderItemForm
+from geekshop.basketapp.models import Basket
+from geekshop.ordersapp.models import Order, OrderItem
+from geekshop.ordersapp.forms import OrderItemForm
 from django.dispatch import receiver
 from django.db.models.signals import pre_save, pre_delete
+from django.http import JsonResponse
+from geekshop.mainapp.models import Product
 
 
 class OrderItemsCreate(CreateView):
@@ -127,3 +129,11 @@ def product_quantity_update_save(sender, update_fields, instance, **kwargs):
 def product_quantity_update_delete(sender, instance, **kwargs):
     instance.product.quantity += instance.quantity
     instance.product.save()
+
+def get_product_price(request, pk):
+   if request.is_ajax():
+       product = Product.objects.filter(pk=int(pk)).first()
+       if product:
+           return JsonResponse({'price': product.price})
+       else:
+           return JsonResponse({'price': 0})
