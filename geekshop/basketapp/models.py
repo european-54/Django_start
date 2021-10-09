@@ -2,6 +2,11 @@ from django.db import models
 from django.conf import settings
 from mainapp.models import Product
 
+app_name = 'basketapp'
+
+
+def super(BasketQuerySet, self):
+    pass
 
 class BasketQuerySet(models.QuerySet):
 

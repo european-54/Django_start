@@ -11,7 +11,7 @@ def getBasket(user):
     pass
 
 
-def products (request,  pk=None, page=1):
+def products (request, pk=None, page=1, product=None):
     title = 'продукты'
     links_menu = ProductCategory.objects.filter(is_active=True)
     basket = getBasket(request.user)
@@ -43,6 +43,7 @@ def products (request,  pk=None, page=1):
             'category': category,
             'products': products_paginator,
             'basket': basket,
+            'product': product,
         }
 
         return render(request, 'mainapp/products.html', content)
@@ -52,3 +53,6 @@ def contact (request):
 
 def menu (request):
     return render(request, 'mainapp/menu.html')
+
+def product (request):
+    return render(request, 'mainapp/product.html')
