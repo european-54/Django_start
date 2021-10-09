@@ -21,7 +21,11 @@ class OrderItemsCreate(CreateView):
    fields = []
    success_url = reverse_lazy('ordersapp:orders_list')
 
-    def get_context_data(self, **kwargs):
+    def __init__(self, **kwargs):
+        super().__init__(kwargs)
+        self.object = form.save()
+
+   def get_context_data(self, **kwargs):
         global num
         data = super(OrderItemsCreate, self).get_context_data(**kwargs)
         OrderFormSet = inlineformset_factory(Order, OrderItem, \
@@ -52,7 +56,6 @@ class OrderItemsCreate(CreateView):
 
         with transaction.atomic():
             form.instance.user = self.request.user
-            self.object = form.save()
             if orderitems.is_valid():
                 orderitems.instance = self.object
                 orderitems.save()
