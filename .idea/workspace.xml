@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b374bf91-bb5e-42d0-8321-511814af4f48" name="Default Changelist" comment="#10.10.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №5">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/geekshop/static/js/orders_scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/geekshop/static/js/orders_scripts.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,13 +145,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1630807581878</updated>
-    </task>
-    <task id="LOCAL-00087" summary="#5.10.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №2">
-      <created>1633377069728</created>
-      <option name="number" value="00087" />
-      <option name="presentableId" value="LOCAL-00087" />
-      <option name="project" value="LOCAL" />
-      <updated>1633377069728</updated>
     </task>
     <task id="LOCAL-00088" summary="#5.10.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №2">
       <created>1633377132383</created>
@@ -490,7 +482,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633794902905</updated>
     </task>
-    <option name="localTasksCounter" value="136" />
+    <task id="LOCAL-00136" summary="#10.10.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №5">
+      <created>1633795849399</created>
+      <option name="number" value="00136" />
+      <option name="presentableId" value="LOCAL-00136" />
+      <option name="project" value="LOCAL" />
+      <updated>1633795849399</updated>
+    </task>
+    <option name="localTasksCounter" value="137" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

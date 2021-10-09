@@ -129,7 +129,9 @@ function deleteOrderItem(row) {
     orderitem_num = parseInt(target_name.replace('orderitems-', '').\
                                          replace('-quantity', ''));
     delta_quantity = -quantity_arr[orderitem_num];
-    orderSummaryUpdate(price_arr[orderitem_num], delta_quantity);
+    quantity_arr[orderitem_num] = 0;
+    if (!isNaN(price_arr[orderitem_num]) && !isNaN(delta_quantity)) {
+        orderSummaryUpdate(price_arr[orderitem_num], delta_quantity);
 }
 
 $('.order_form select').change(function () {
