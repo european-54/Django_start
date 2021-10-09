@@ -81,8 +81,7 @@ class OrderItemsUpdate(UpdateView):
     def get_context_data(self, data=None, **kwargs):
 
         if self.request.POST:
-            data['orderitems'] = OrderFormSet(self.request.POST,
-                                              instance=self.object)
+            data['orderitems'] = OrderFormSet(self.request.POST)
         else:
             formset = OrderFormSet(instance=self.object)
             for form in formset.forms:
