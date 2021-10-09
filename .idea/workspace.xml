@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b374bf91-bb5e-42d0-8321-511814af4f48" name="Default Changelist" comment="#10.10.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №5">
+      <change afterPath="$PROJECT_DIR$/geekshop/mainapp/management/commands/update_db.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/DZ7_Lazarev_Igor.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DZ7_Lazarev_Igor.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/geekshop/ordersapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekshop/ordersapp/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -51,10 +53,10 @@
     <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="com.google.cloudcode.ide_session_index" value="20211009_0001" />
+    <property name="com.google.cloudcode.ide_session_index" value="20211010_0000" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.general" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -146,20 +148,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1630807581878</updated>
-    </task>
-    <task id="LOCAL-00092" summary="#6.10.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №3">
-      <created>1633526769975</created>
-      <option name="number" value="00092" />
-      <option name="presentableId" value="LOCAL-00092" />
-      <option name="project" value="LOCAL" />
-      <updated>1633526769975</updated>
-    </task>
-    <task id="LOCAL-00093" summary="#6.10.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №3">
-      <created>1633527002236</created>
-      <option name="number" value="00093" />
-      <option name="presentableId" value="LOCAL-00093" />
-      <option name="project" value="LOCAL" />
-      <updated>1633527002236</updated>
     </task>
     <task id="LOCAL-00094" summary="#6.10.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №3">
       <created>1633527132607</created>
@@ -490,7 +478,21 @@
       <option name="project" value="LOCAL" />
       <updated>1633798255618</updated>
     </task>
-    <option name="localTasksCounter" value="141" />
+    <task id="LOCAL-00141" summary="#10.10.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №5">
+      <created>1633800731142</created>
+      <option name="number" value="00141" />
+      <option name="presentableId" value="LOCAL-00141" />
+      <option name="project" value="LOCAL" />
+      <updated>1633800731142</updated>
+    </task>
+    <task id="LOCAL-00142" summary="#10.10.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №5">
+      <created>1633800929714</created>
+      <option name="number" value="00142" />
+      <option name="presentableId" value="LOCAL-00142" />
+      <option name="project" value="LOCAL" />
+      <updated>1633800929714</updated>
+    </task>
+    <option name="localTasksCounter" value="143" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
