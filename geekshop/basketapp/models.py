@@ -23,7 +23,7 @@ def Basket():
     return None
 
 
-class basket(models.Model):
+class Basket(models.Model):
     user = models.ForeignKey(settings.AUTH_USER_MODEL,
     on_delete=models.CASCADE, related_name='basket')
     product = models.ForeignKey(Product, on_delete=models.CASCADE)
