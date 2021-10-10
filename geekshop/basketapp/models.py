@@ -19,6 +19,10 @@ class BasketQuerySet(models.QuerySet):
 objects = BasketQuerySet.as_manager()
 
 
+def Basket():
+    return None
+
+
 class basket(models.Model):
     user = models.ForeignKey(settings.AUTH_USER_MODEL,
     on_delete=models.CASCADE, related_name='basket')
@@ -80,7 +84,3 @@ class basket(models.Model):
     @classmethod
     def get_item(cls, pk):
         pass
-
-
-def Basket():
-    return None
