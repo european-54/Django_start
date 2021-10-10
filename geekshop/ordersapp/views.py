@@ -139,3 +139,7 @@ def get_product_price(request, pk):
            return JsonResponse({'price': product.price})
        else:
            return JsonResponse({'price': 0})
+
+
+def order_forming_complete():
+    return None
