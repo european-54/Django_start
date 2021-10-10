@@ -41,7 +41,6 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'mainapp',
     'social_django',
-    'basketapp',
     'django.contrib.basket',
 ]
 

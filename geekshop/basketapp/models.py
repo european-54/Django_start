@@ -19,7 +19,7 @@ class BasketQuerySet(models.QuerySet):
 objects = BasketQuerySet.as_manager()
 
 
-class Basket(models.Model):
+class basket(models.Model):
     user = models.ForeignKey(settings.AUTH_USER_MODEL,
     on_delete=models.CASCADE, related_name='basket')
     product = models.ForeignKey(Product, on_delete=models.CASCADE)
@@ -76,3 +76,7 @@ class Basket(models.Model):
         _items = Basket.objects.filter(user=self.user)
         _totalcost = sum(list(map(lambda x: x.product_cost, _items)))
         return _totalcost
+
+
+def Basket():
+    return None
