@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b374bf91-bb5e-42d0-8321-511814af4f48" name="Default Changelist" comment="#10.10.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №5">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop/basketapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekshop/basketapp/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop/ordersapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekshop/ordersapp/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +25,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="homework4_Lazarev_Igor" />
+        <entry key="$PROJECT_DIR$" value="homework5_Lazarev_Igor" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -50,7 +52,7 @@
     <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="com.google.cloudcode.ide_session_index" value="20211010_0003" />
+    <property name="com.google.cloudcode.ide_session_index" value="20211010_0004" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -145,13 +147,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1630807581878</updated>
-    </task>
-    <task id="LOCAL-00107" summary="#6.10.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №3">
-      <created>1633530114057</created>
-      <option name="number" value="00107" />
-      <option name="presentableId" value="LOCAL-00107" />
-      <option name="project" value="LOCAL" />
-      <updated>1633530114057</updated>
     </task>
     <task id="LOCAL-00108" summary="#6.10.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №3">
       <created>1633530272865</created>
@@ -489,7 +484,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633833509887</updated>
     </task>
-    <option name="localTasksCounter" value="156" />
+    <task id="LOCAL-00156" summary="#10.10.2021&#10;&#10;#Lazarev Igor&#10;#Домашнаяя №5">
+      <created>1633855950904</created>
+      <option name="number" value="00156" />
+      <option name="presentableId" value="LOCAL-00156" />
+      <option name="project" value="LOCAL" />
+      <updated>1633855950905</updated>
+    </task>
+    <option name="localTasksCounter" value="157" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
