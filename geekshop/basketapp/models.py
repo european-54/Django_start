@@ -28,7 +28,7 @@ class basket(models.Model):
     add_datetime = models.DateTimeField(verbose_name='время',
     auto_now_add=True)
 
-    def property(args):
+    def property(self):
         pass
 
     def save(self, *args, **kwargs):
@@ -76,6 +76,10 @@ class basket(models.Model):
         _items = Basket.objects.filter(user=self.user)
         _totalcost = sum(list(map(lambda x: x.product_cost, _items)))
         return _totalcost
+
+    @classmethod
+    def get_item(cls, pk):
+        pass
 
 
 def Basket():
