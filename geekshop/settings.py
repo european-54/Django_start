@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'mainapp',
     'social_django',
     'basketapp',
+    'django.contrib.basket',
 ]
 
 MIDDLEWARE = [
