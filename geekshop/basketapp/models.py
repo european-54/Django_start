@@ -2,6 +2,11 @@ from django.db import models
 from django.conf import settings
 from mainapp.models import Product
 
+app_name = 'basketapp'
+
+
+def super(BasketQuerySet, self):
+    pass
 
 class BasketQuerySet(models.QuerySet):
 
@@ -14,6 +19,10 @@ class BasketQuerySet(models.QuerySet):
 objects = BasketQuerySet.as_manager()
 
 
+def Basket():
+    return None
+
+
 class Basket(models.Model):
     user = models.ForeignKey(settings.AUTH_USER_MODEL,
     on_delete=models.CASCADE, related_name='basket')
@@ -21,9 +30,9 @@ class Basket(models.Model):
     quantity = models.PositiveIntegerField(verbose_name='количество',
     default=0)
     add_datetime = models.DateTimeField(verbose_name='время',
-    auto_now_add=True)
+    auto_now_add = True)
 
-    def property(args):
+    def property(self):
         pass
 
     def save(self, *args, **kwargs):
@@ -71,3 +80,7 @@ class Basket(models.Model):
         _items = Basket.objects.filter(user=self.user)
         _totalcost = sum(list(map(lambda x: x.product_cost, _items)))
         return _totalcost
+
+    @classmethod
+    def get_item(cls, pk):
+        pass
